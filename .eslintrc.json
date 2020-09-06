@@ -1,0 +1,10 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "prettier", "prettier/react"],
+    "plugins": ["babel"],
+    "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "one-var": ["error", { "uninitialized": "always" }]
+    }
+}
